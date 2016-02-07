@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: UTF-8
-str ="Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
-str1 = str.split(" ")
+str1 ="Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+str2 = str1.split(" ")
 #print len(str)
-for str2 in str1:
-	print len(str2)
+for str3 in str2:
+	print len(str3)
