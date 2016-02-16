@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: UTF-8
-def test(x,y,z):
+def niko(x,y,z):
 
 	if x == 0:
 		x = 'x'
@@ -17,4 +17,4 @@ def test(x,y,z):
     	print x + '時の' + y + 'は' + z
 
 if __name__ == "__main__":
-    test(0,0,0)
+    niko(0,0,0)
