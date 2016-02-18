@@ -8,5 +8,8 @@ for niko in neko:
 		print niko
 	else:
 		noko = niko[1:-1]
-		random.shuffle(noko)
-		print noko
+		ran = list(noko)
+		random.shuffle(ran)
+		print niko[0]
+		print ran
+		print niko[-1]
