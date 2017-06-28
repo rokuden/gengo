@@ -16,8 +16,8 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
  
 #Gmailアカウント
-ADDRESS = "mikuru2654@gmail.com"
-PASSWARD = "ts1202me1994"
+ADDRESS = ""
+PASSWARD = ""
  
 #SMTPサーバの設定(Gmail用)
 SMTP = "smtp.gmail.com"
@@ -73,7 +73,7 @@ def send(from_addr, to_addrs, msg):
 if __name__ == '__main__':
  
     #宛先アドレス
-    to_addr = "kanako46609000@docomo.ne.jp"
+    to_addr = ""
  
     #件名と本文
     subject = "zanryu"
